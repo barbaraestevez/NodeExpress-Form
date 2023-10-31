@@ -1,0 +1,14 @@
+{
+  "name": "app_form",
+  "version": "1.0.0",
+  "description": "Validación de datos en un formulario",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bárbara Estévez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
