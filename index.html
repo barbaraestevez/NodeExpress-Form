@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.3.2/morph/bootstrap.min.css" integrity="sha512-rYFa4XJ/kpj/fF890UxkDkDBNwfCiWZNp7+oqbgQkw+ncbiaGYk0Hz3pNMeBJ7GR0p66VOZz50NY3RXln2CcTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario de cliente</h1>
+    <form id="clientForm" action="/cliente/pepino" method="post">
+        <div class="form-group">
+            <label class="col-form-label col-form-label-sm mt-4" for="nombre">Nombre</label></br>
+            <input class="form-control form-control-sm" type="text" placeholder="Escribe tu nombre" name="nombre">
+        </div>
+        <div class="form-group">
+            <label class="col-form-label col-form-label-sm mt-4" for="apellido1">Primer Apellido</label></br>
+            <input class="form-control form-control-sm" type="text" placeholder="Escribe tu primer apellido" name="apellido1">
+        </div>
+        <div class="form-group">
+            <label class="col-form-label col-form-label-sm mt-4" for="apellido2">Segundo Apellido</label></br>
+            <input class="form-control form-control-sm" type="text" placeholder="Escribe tu segundo apellido" name="apellido2">
+        </div>
+        <div class="form-group">
+            <label class="col-form-label col-form-label-sm mt-4" for="DNI">DNI</label></br>
+            <input class="form-control form-control-sm" type="text" placeholder="Escribe tu DNI completo" name="DNI">
+        </div>
+        <button class="btn btn-primary" type="submit" id="button-addon2">Enviar</button>
+    </form>
+</body>
+</html>
